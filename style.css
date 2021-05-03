@@ -1,0 +1,79 @@
+body {
+          background:  #124c51;
+          font-family: 'Nunito Sans', sans-serif;
+}
+/* #9ea4d1 */
+.sunrise h2 { 
+          color: #d54a00;
+          font-weight: 200;
+          font-size: 2.255rem;
+}
+
+.sunrise p {
+          color: #fff;
+          font-weight: 200;
+          font-size: 1.125rem;
+          line-height: 1.75;
+          margin-top: 35px;
+}
+
+.view {
+          margin-top: 70px;
+}
+#mainNavbar .navbar-brand {
+          color: #d54a00;
+          font-size: 1.5rem;
+          font-weight: 400;
+}
+
+#mainNavbar .navbar-brand:hover {
+          color: #c44500;
+          font-weight: 600;
+}
+
+#mainNavbar {
+          color: #fafafd;
+          font-size: 1.4rem;
+          font-weight: 300;       
+}
+
+#mainNavbar .nav-link:hover {
+          color: #fff;
+          font-weight: 400;
+}
+
+#headingGroup span {
+          color: #d54a00;
+          font-weight: 400;
+}
+
+#headingGroup h1 {
+          font-weight: 200;
+          font-size: 2.1rem;
+}
+
+/* media query(allows to adjand apply styles for different screen sizes) to scale the text, to shrink it down, when minimazing the photo comes on the text, to need to adjust the size of our content, when its getting too crowded between columns  */
+/* @media (max-width: 1100px) {
+          body {
+                    background-color: orange;
+          } 
+} */
+
+@media (max-width: 1200px) {
+          #headingGroup h1 {
+                    font-weight: 200;
+                    font-size: 1.8rem;
+          }
+}
+
+
+.navbar.scrolled {
+          background-color: #191c35;
+          transition: background 700ms;
+}
+
+#sun {
+          font-size: 35px;
+          
+          
+}

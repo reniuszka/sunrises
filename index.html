@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <!-- required metatags -->
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+          <!-- font awesome -->
+          <script src="https://use.fontawesome.com/8d29adcea4.js"></script>
+          <!-- google font -->
+          <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+          <!-- bootstrap css -->
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+          
+          <!-- css -->
+          <link rel="stylesheet" href="style.css">
+
+          
+
+          <!-- title of the tab -->
+          <title>Museum of Sunrises</title>
+
+</head>
+<body>
+       <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+                 <a href="#" class="navbar-brand">SUNRISES</a>
+                 <!-- if a blind person is using it through screen reader then should add aria class to explain what it is -->
+                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div id="navLinks" class="collapse navbar-collapse">
+                           <ul class="navbar-nav">
+                                     <li class="nav-item">
+                                        <a href="#" class="nav-link">HOME</a>
+                                     </li>
+                                     <li class="nav-item">
+                                        <a href="#" class="nav-link">ABOUT</a>
+                                     </li>
+                                     <li class="nav-item">
+                                        <a href="#" class="nav-link">TICKETS</a>
+                                     </li>
+                           </ul>
+                 </div>
+
+       </nav>
+
+       <section class="container-fluid">
+                 <div class="row align-items-center">
+                           <div class="col-lg-6 px-0">
+                                     <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+                                        <h1>MUSEUM<span>/</span>OF<span>/</span>SUNRISES</h1>
+                                        <h1>MUSEUM<span>/</span>OF<span>/</span>SUNRISES</h1>
+                                        <h1>MUSEUM<span>/</span>OF<span>/</span>SUNRISES</h1>
+                                        <h1>MUSEUM<span>/</span>OF<span>/</span>SUNRISES</h1>
+                                        <h1>MUSEUM<span>/</span>OF<span>/</span>SUNRISES</h1>
+                                        <h1>MUSEUM<span>/</span>OF<span>/</span>SUNRISES</h1>
+                                     </div> 
+                           </div>
+                           <div class="col-lg-6 px-0">
+                              <img class="img-fluid" src="img/johannes-plenio-qkfxBc2NQ18-unsplash.jpg" alt="photo of sunrise1">
+                    </div>
+                 </div>
+       </section>
+
+       <!-- align-items-center - our content will be in the middle starting from the left side so then we need to add text-center to have it in the middle. 
+for example align-items-end  - the content will be shown at the bottom -->
+<!-- d-none utility- do not display, if we want to show something then d-block and tell when show it - at lg screen so it is d-lg-block -->
+
+       <!--   class img-fluid helps as to adj the photo in the column and make the photo responsive : max-width: 100% and height: auto-->
+       <!-- px-0 it helped me to delete extra padding which comes from boostrap from col -->
+       <!-- container-fluid - we need to use container because we are using the grid system, the regular container goes only down the screen, fluid goes across the page  -->
+
+       <!-- justify-content-center is really helpful when I want to take only 10 out of 12 columns, and make them in the middle :) -->
+       <!-- until md it is taking 10 columns, when lg we need to notify it saying col-lg-8 -->
+
+       <!-- order - use is when shrinking down to decide which column comes first -->
+
+       <section class="container-fluid">
+                 <div class="row align-items-center view">
+                           <div class="col-md-6 px-0 order-2 order-md-1">
+                                     <img class="img-fluid" src="img/terry-tan-de-hao-MTUQ2jobhYM-unsplash.jpg" alt="photo of sunrise2">
+                           </div>
+                           <div class="col-md-6 text-center order-1 order-md-2">
+                              <div class="row justify-content-center">
+                                        <div class="col-10 col-lg-8 sunrise mb-5 mb-md-0">
+                                                  <h2>SUNRISE</h2>
+                                                  <i id="sun" class="fa fa-sun-o d-none d-md-inline" aria-hidden="true"></i>
+                                                  <p class="lead">Justice social entrepreneurship sustainable silo, storytelling efficient. Mobilize engaging inclusive; mobilize social entrepreneurship emerging bandwidth LGBTQ+ emerging. Effective altruism, mobilize innovate, think tank strategy change-makers.</p>
+                                        </div>           
+                              </div>
+                           </div>
+                 </div>
+
+                 <div class="row align-items-center view">
+                    
+                    <div class="col-md-6 text-center">
+                       <div class="row justify-content-center">
+                                 <div class="col-10 col-lg-8 sunrise mb-5 mb-md-0">
+                                           <h2>SUNRISE</h2>
+                                           <i id="sun" class="fa fa-sun-o d-none d-md-inline" aria-hidden="true"></i>
+                                           <p class="lead">Justice social entrepreneurship sustainable silo, storytelling efficient. Mobilize engaging inclusive; mobilize social entrepreneurship emerging bandwidth LGBTQ+ emerging. Effective altruism, mobilize innovate, think tank strategy change-makers.</p>
+                                 </div>           
+                       </div>
+                    </div>
+
+                    <div class="col-md-6 px-0">
+                              <img class="img-fluid" src="img/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg" alt="photo of sunrise2">
+                    </div>
+                  </div>
+
+                 <div class="row align-items-center view">
+                    <div class="col-md-6 px-0 order-2 order-md-1">
+                              <img class="img-fluid" src="img/parinay-clickers-aKBtbbVP970-unsplash.jpg" alt="photo of sunrise2">
+                    </div>
+                    <div class="col-md-6 text-center order-1 order-md-2">
+                       <div class="row justify-content-center">
+                                 <div class="col-10 col-lg-8 sunrise mb-5 mb-md-0">
+                                           <h2>SUNRISE</h2>
+                                           <i id="sun" class="fa fa-sun-o d-none d-md-inline" aria-hidden="true"></i>
+                                           <p class="lead">Justice social entrepreneurship sustainable silo, storytelling efficient. Mobilize engaging inclusive; mobilize social entrepreneurship emerging bandwidth LGBTQ+ emerging. Effective altruism, mobilize innovate, think tank strategy change-makers.</p>
+                                 </div>           
+                       </div>
+                    </div>
+                  </div>
+       </section>
+
+
+<!-- jquery, popper.sj and tnej bootstrap js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<!-- to see the navbar when scrolls down -->
+<script>
+          $(function () {
+                    $(document).scroll(function(){
+                              var $nav = $("#mainNavbar");
+                              $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                    });
+          });
+</script>
+</body>
+</html>
